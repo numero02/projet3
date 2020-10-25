@@ -1,0 +1,386 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/**************************************/
+body {
+  background: #F0EDFF;
+}
+
+body .logo {
+  width: 20%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+body .logo a img {
+  width: 100%;
+}
+
+body .entete {
+  background: #002B7C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 60px;
+}
+
+body .entete .bloc1 {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .entete .bloc1 img {
+  height: 40px;
+  margin: 10px;
+}
+
+body .entete .bloc1 p {
+  color: white;
+  padding: 20px;
+}
+
+body .entete .bloc2 {
+  width: 30%;
+  margin-top: 10px;
+}
+
+body .entete .bloc2 a {
+  background: #00C892;
+  line-height: 2.5;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-decoration: none;
+  color: black;
+}
+
+body .entete .bloc2 .b2 {
+  margin-left: 40px;
+}
+
+body main h1 {
+  margin: 150px;
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  font-size: 3em;
+  color: black;
+}
+
+body main h1 .title {
+  color: red;
+}
+
+body main h2 {
+  margin: 50px;
+  text-align: center;
+  font-size: 1.4em;
+  color: black;
+}
+
+body main nav {
+  margin-top: 75px;
+}
+
+body main nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main nav ul li {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+body main .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main .link p {
+  text-align: center;
+}
+
+body main .link p a {
+  background: #00C892;
+  line-height: 2.5;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-decoration: none;
+  color: black;
+}
+
+body main p {
+  text-align: center;
+}
+
+body main p a {
+  background: #00C892;
+  line-height: 2.5;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-decoration: none;
+  color: black;
+}
+
+body main section {
+  width: 90%;
+  height: 700px;
+  background: #002B7C;
+  margin: auto;
+  position: relative;
+  margin-bottom: 75px;
+}
+
+body main section div {
+  width: 90%;
+  height: 80%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #F0EDFF;
+  overflow-y: scroll;
+}
+
+body main section div article {
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+  border: 2px solid black;
+}
+
+body main section div article h3 {
+  margin-bottom: 10px;
+  font-size: 2.2em;
+  color: #046249;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+body main section div article .supp {
+  text-decoration: none;
+  background: #00C892;
+  padding: 10px;
+  margin: 10px;
+}
+
+body main section div article p {
+  padding: 20px;
+  text-align: justify;
+}
+
+body main .blc {
+  width: 35%;
+  margin: auto;
+  background: #002B7C;
+  color: white;
+  height: 100%;
+  margin-top: 35px;
+}
+
+body main .blc h3 {
+  text-align: center;
+  padding-top: 65px;
+  color: white;
+  font-family: 'EB Garamond', serif;
+  font-size: 1.8em;
+}
+
+body main .blc .erreur {
+  width: 50%;
+  margin: auto;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+body main .blc .erreur .red {
+  color: red;
+  font-size: 1.8em;
+}
+
+body main .blc .erreur p {
+  line-height: 1.8;
+  color: white;
+}
+
+body main .blc form {
+  text-align: center;
+  padding-top: 25px;
+}
+
+body main .blc form table {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+
+body main .blc form table tr td {
+  padding-top: 25px;
+}
+
+body main .blc form table tr td .champ {
+  width: 50%;
+  height: 35px;
+}
+
+body main .blc form table tr td .txt {
+  height: 100%;
+}
+
+body main .blc form table tr .btn {
+  padding-bottom: 40px;
+}
+
+body main .blc form table tr .btn .btn1 {
+  background: #00C892;
+  color: black;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+body main .blc2 {
+  width: 75%;
+  background: #002B7C;
+  margin: auto;
+  margin-top: 55px;
+  text-align: center;
+}
+
+body main .blc2 h3 {
+  text-align: center;
+  padding-top: 65px;
+  color: white;
+  font-family: 'EB Garamond', serif;
+  font-size: 1.8em;
+}
+
+body main .blc2 .erreur {
+  width: 50%;
+  margin: auto;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border: 2px solid black;
+}
+
+body main .blc2 .erreur .red {
+  color: red;
+  font-size: 1.8em;
+}
+
+body main .blc2 .erreur p {
+  line-height: 1.8;
+}
+
+body main .blc2 .form2 {
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+
+body main .blc2 .form2 table {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+
+body main .blc2 .form2 table tr td {
+  padding-top: 25px;
+}
+
+body main .blc2 .form2 table tr td .champ {
+  width: 50%;
+  height: 35px;
+}
+
+body main .blc2 .form2 table tr .btn .btn1 {
+  background: #00C892;
+  color: black;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+body main .lien {
+  text-align: center;
+}
+
+body footer {
+  text-align: center;
+  margin: auto;
+  background: #002B7C;
+  color: white;
+  height: 40px;
+  padding-top: 20px;
+}
+/*# sourceMappingURL=style.css.map */
